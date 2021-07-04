@@ -17,5 +17,7 @@ public class TestUtil extends TestBase {
 	public void switchToFarme()
 	{
 		driver.switchTo().frame("");
+		thread.sleep(2000);
+		
 	}
 }
